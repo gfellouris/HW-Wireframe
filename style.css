@@ -1,69 +1,74 @@
 * {
     box-sizing: border-box;
-  }
+}
   
-  body {
-      background-color: grey;
-      margin: 5;
-  }
-  .header {
-    background-color: white;
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: '#777';
+    background: '#777';
+    width: '960px';
+    font-size: '18px';
+}
+
+header, nav, section, aside footer {
+    background: '#ebebeb';
+}
+
+.header {
     text-align: center;
     padding: 20px;
-  }
+}
   
-  /* The navbar container */
-  .topnav {
+/* The navbar container */
+.nav {
     text-align: center;
     overflow: hidden;
-    background-color: white;
-  }
+}
   
-  /* Navbar links */
-  .topnav a {
+/* Navbar links */
+.nav a {
     float: left;
     display: block;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  }
+}
   
-  /* Links - change color on hover */
-  .topnav a:hover {
+/* Links - change color on hover */
+.nav a:hover {
     background-color: #ddd;
     color: black;
-  }
+}
   
-  /* Create  unequal columns that floats next to each other */
-  .column {
+/* Create  unequal columns that floats next to each other */
+.column {
     float: left;
     padding: 10px;
     border-style: solid;
     background-color: white;
-  }
+}
   
-  /* Left and right column */
-  .column.section {
+/* Left and right column */
+.column.section {
     width: 50%;
-  }
+}
   
-  /* Middle column */
-  .column.aside {
+/* Middle column */
+.column.aside {
     width: 50%;
-  }
+}
   
   /* Clear floats after the columns */
-  .row:after {
+.row:after {
     content: "";
     display: table;
     clear: both;
-  }
+}
   
-  
-  /* Style the footer */
-  .footer {
+/* Style the footer */
+.footer {
     background-color: white;
     padding: 10px;
     text-align: center;
-  }
+}
