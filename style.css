@@ -10,8 +10,22 @@ body {
     font-size: '18px';
 }
 
-header, nav, section, aside footer {
-    background: '#ebebeb';
+.header, .nav, .section, .aside, .footer {
+    background: #ebebeb;
+}
+
+.article {
+    color: #ebebeb;
+    background: #777;
+}
+
+h1, p {
+    color: #777;
+    background: #ebebeb;
+}
+
+.section {
+    width: 495px;
 }
 
 .header {
@@ -68,7 +82,6 @@ header, nav, section, aside footer {
   
 /* Style the footer */
 .footer {
-    background-color: white;
     padding: 10px;
     text-align: center;
 }
