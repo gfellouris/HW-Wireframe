@@ -1,87 +1,56 @@
-* {
-    box-sizing: border-box;
-}
-  
 body {
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: '#777';
-    background: '#777';
-    width: '960px';
-    font-size: '18px';
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    line-height: 150%;
+    color: #333;
+    background: #efeee7;
 }
 
-.header, .nav, .section, .aside, .footer {
-    background: #ebebeb;
+header {
+    background: red;
 }
 
-.article {
-    color: #ebebeb;
-    background: #777;
-}
-
-h1, p {
-    color: #777;
-    background: #ebebeb;
-}
-
-.section {
-    width: 495px;
-}
-
-.header {
+h1 {
+    padding: 20px 0;
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #eee;
     text-align: center;
-    padding: 20px;
+    background: #333;
 }
-  
-/* The navbar container */
-.nav {
-    text-align: center;
-    overflow: hidden;
+
+h2 {
+    font-size: 24px;
 }
-  
-/* Navbar links */
-.nav a {
+
+a {
+    color: red;
+}
+
+.container {
+    width:1024px;
+    margin: 0 auto;
+}
+
+#main-bio,
+#contact-info,
+#bio-image {
     float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+}
+
+#main-bio {
+    width: 70%;
 }
   
-/* Links - change color on hover */
-.nav a:hover {
-    background-color: #ddd;
-    color: black;
+#contact-info {
+    width: 30%;
 }
   
-/* Create  unequal columns that floats next to each other */
-.column {
-    float: left;
-    padding: 10px;
-    border-style: solid;
-    background-color: white;
-}
-  
-/* Left and right column */
-.column.section {
-    width: 50%;
-}
-  
-/* Middle column */
-.column.aside {
-    width: 50%;
-}
-  
-  /* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-  
-/* Style the footer */
-.footer {
-    padding: 10px;
-    text-align: center;
+#bio-image {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
 }
