@@ -58,7 +58,8 @@ footer {
   text-align: center;
 }
 
-.headerDiv, .pDiv {
+.headerDiv,
+.pDiv {
   padding: 10px;
   margin: 5px;
   background: #ebebeb;
