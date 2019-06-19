@@ -58,10 +58,26 @@ footer {
   text-align: center;
 }
 
+.headerDiv, .pDiv {
+  padding: 10px;
+  margin: 5px;
+  background: #ebebeb;
+}
+
+.headerClass {
+  display: inline;
+  font-size: 14px;
+  font-weight: bold;
+  background: #ebebeb;
+}
+
 h1,
+h2,
+h3,
 p {
   color: #777;
   background: #ebebeb;
+  font-size: 14px;
 }
 
 section {
@@ -74,7 +90,7 @@ section {
 article {
   color: #ebebeb;
   margin: 5px;
-  padding-bottom: 140px; 
+  padding-bottom: 40px;
   background: #777;
 }
 
